@@ -1,0 +1,107 @@
+.product-detail {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.product-detail img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-info .button-container {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+    margin-top: 15px; /* Adds spacing above the buttons */
+}
+
+.add-to-cart,
+.normal {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart {
+    background-color: #ff6600;
+}
+
+.add-to-cart:hover {
+    background-color: #e65c00;
+}
+
+.normal {
+    background-color: #333;
+}
+
+.normal:hover {
+    background-color: #555;
+}
+
+
+.detail-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detail-info h3 {
+    font-size: 22px;
+    color: #e91e63;
+    margin: 15px 0;
+}
+
+.detail-info label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.detail-info select, .detail-info input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-to-cart,
+.normal {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart {
+    background-color: white;
+}
+
+.add-to-cart:hover {
+    background-color: black;
+    color: white;
+}
+
+.normal {
+    background-color: #333;
+}
+
+.normal:hover {
+    background-color: #555;
+}
